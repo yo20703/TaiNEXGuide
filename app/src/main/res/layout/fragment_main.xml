@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.PlaceholderFragment">
+
+    <ScrollView
+        android:id="@+id/sv_about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@+id/rl_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_about1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/about1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/tv_about1_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1館-關於展館"
+                    android:textColor="#007DAF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <View
+                    android:id="@+id/v_line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#7B7B7B" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/about1_text"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_aboutgreen_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="綠色展館"
+                    android:textColor="#007DAF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <View
+                    android:id="@+id/v_linegreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#7B7B7B" />
+                <TextView
+                    android:id="@+id/tv_greencontent1"
+                    android:layout_width="match_parent"
+                    android:text="@string/aboutgreen_text"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/tv_aboutgreen_title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:text="\n綠建築標章："/>
+                <TextView
+                    android:id="@+id/tv_aboutgreen_content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutgreen_content2"/>
+
+                <TextView
+                    android:id="@+id/tv_aboutgreen_title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:text="\n碳盤查："/>
+                <TextView
+                    android:id="@+id/tv_aboutgreen_content3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutgreen_content3"/>
+
+                <TextView
+                    android:id="@+id/tv_aboutgreen_title4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:text="\n綠色營運："/>
+                <TextView
+                    android:id="@+id/tv_aboutgreen_content4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutgreen_content4"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="9">
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="5dp"
+                        android:src="@drawable/green1"/>
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="5dp"
+                        android:src="@drawable/green2"/>
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="5dp"
+                        android:src="@drawable/green3"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_aboutgreen_title5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:text="\n綠色內部管理："/>
+                <TextView
+                    android:id="@+id/tv_aboutgreen_content5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutgreen_content5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/tv_about2_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2館-關於展館"
+                    android:textColor="#007DAF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <View
+                    android:id="@+id/v_about2_line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#7B7B7B" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/about2_text"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
