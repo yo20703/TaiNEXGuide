@@ -5,13 +5,12 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.PlaceholderFragment">
+    tools:context=".ui.main.IntroduceFragment">
 
     <ScrollView
         android:id="@+id/sv_about"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone">
+        android:layout_height="match_parent">
         <LinearLayout
             android:id="@+id/rl_about"
             android:layout_width="match_parent"
