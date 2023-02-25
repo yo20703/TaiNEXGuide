@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 
 import com.ukn.edu.tainex.databinding.ActivityMainBinding;
+import com.ukn.edu.tainex.ui.main.MyTicksFragment;
 import com.ukn.edu.tainex.ui.main.exhibit.ExhibitFragment;
 import com.ukn.edu.tainex.ui.main.IntroduceFragment;
 import com.ukn.edu.tainex.ui.main.NewsFragment;
@@ -33,11 +34,13 @@ public class MainActivity extends AppCompatActivity {
         fragmentList.add(new ExhibitFragment());
         fragmentList.add(newsFragment);
         fragmentList.add(new IntroduceFragment());
+        fragmentList.add(new MyTicksFragment());
 
         titles = new String[]{
                 getResources().getString(R.string.tab_text_1),
                 getResources().getString(R.string.tab_text_2),
-                getResources().getString(R.string.tab_text_3)};
+                getResources().getString(R.string.tab_text_3),
+                getResources().getString(R.string.tab_text_4)};
 
         MyPagerAdapter myPagerAdapter
                 = new MyPagerAdapter(getSupportFragmentManager());
