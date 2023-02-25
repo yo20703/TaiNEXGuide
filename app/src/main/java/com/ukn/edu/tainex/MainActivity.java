@@ -7,11 +7,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.KeyEvent;
 
 import com.ukn.edu.tainex.databinding.ActivityMainBinding;
-import com.ukn.edu.tainex.ui.main.ExhibitFragment;
+import com.ukn.edu.tainex.ui.main.exhibit.ExhibitFragment;
 import com.ukn.edu.tainex.ui.main.IntroduceFragment;
 import com.ukn.edu.tainex.ui.main.NewsFragment;
 
