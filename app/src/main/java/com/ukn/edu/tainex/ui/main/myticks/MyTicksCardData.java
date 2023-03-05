@@ -1,28 +1,27 @@
-package com.ukn.edu.tainex.ui.main.exhibit;
+package com.ukn.edu.tainex.ui.main.myticks;
 
-public class ExhibitCard {
+public class MyTicksCardData {
     private int image;
     private String date;
     private String name;
     private String place;
+    private String time;
+    private int count;
 
-    public ExhibitCard(){
-        super();
-    }
-
-    public ExhibitCard(int image, String date, String name, String place){
-        super();
+    public MyTicksCardData(int image, String date, String name, String place, String time, int count) {
         this.image = image;
         this.date = date;
         this.name = name;
         this.place = place;
+        this.time = time;
+        this.count = count;
     }
 
-    public int getImage(){
+    public int getImage() {
         return image;
     }
 
-    public void setImage(int image){
+    public void setImage(int image) {
         this.image = image;
     }
 
@@ -48,5 +47,21 @@ public class ExhibitCard {
 
     public void setPlace(String place) {
         this.place = place;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
     }
 }

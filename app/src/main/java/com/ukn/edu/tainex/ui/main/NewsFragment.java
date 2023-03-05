@@ -1,17 +1,13 @@
 package com.ukn.edu.tainex.ui.main;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.KeyEvent;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebResourceRequest;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.ukn.edu.tainex.R;
 import com.ukn.edu.tainex.databinding.FragmentNewsBinding;
 
 public class NewsFragment extends Fragment {
